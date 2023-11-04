@@ -1,0 +1,231 @@
+
+/* header navbar section  */
+.main1{
+  height:100%;
+  width: 100%;
+  /* background-image: linear-gradient(185deg, #d492b2, #350e47); */
+  background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fuggles&family=Josefin+Sans:ital,wght@0,400;1,300&family=Narnoor&family=Noto+Sans+Cypro+Minoan&family=Pacifico&family=Poppins:ital,wght@0,600;1,300&family=Space+Grotesk:wght@500&display=swap');
+
+ul li{
+  padding: 15px;
+  
+/* font-family: 'Pacifico', cursive; */
+font-family: "Brush Script MT";
+
+
+}
+.nav-sticky{
+  position: sticky;
+  top: 0px;
+  background-image: linear-gradient(45deg, rgb(135,147,171),rgb(20,29,46),rgb(47,19,37),rgb(135,147,171));
+  opacity: 0.5px;
+}
+.underline-navvv {
+  font-size: 25px;
+}
+.underline-navvv:hover{
+ border-bottom: 5px solid rgb(82, 27, 51);
+ color: aliceblue
+}
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Josefin+Sans:ital,wght@0,400;1,300&family=Narnoor&family=Noto+Sans+Cypro+Minoan&family=Pacifico&family=Poppins:ital,wght@0,600;1,300&family=Space+Grotesk:wght@500&display=swap');
+
+
+.Img-logo-S{
+  height: 60px;
+}
+.name-logo{
+  
+  
+  font-weight: bolder;
+  font-size: 20px;
+  /* color: rgb(115, 25, 8); */
+  color: rgb(20, 24, 2);
+  text-shadow: 10px 10px 15px black;
+  font-family: cursive;
+  font-style: italic;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.phone-img{
+  height: 600px;
+  margin-top: 40px;
+  
+}
+.moment-text{
+  color:  white;
+  font-size: 60px;
+    margin-top: 60px;
+}
+.moment-para{
+  color:  white;
+  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 4px;
+
+}
+.btn{
+  border: 2px solid #dd1173;
+  height: 60px;
+  width: 180px;
+    background-color: #fc0a7e;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.btn:hover{
+  background-color: white;
+  color: #350e47;
+}
+.img-arrow{
+  margin-bottom: 25px;
+  position: relative;
+  right:25px;
+}
+
+@media screen and (max-width: 950px) {
+  .img-arrow {
+    position: relative;
+    top: 280px;
+    right: 285px;
+
+  }
+}
+
+/* second section  */
+
+.main2{
+  height: 100%;
+  background-color: #1b1b1b;
+
+}
+.aenean-margin{
+  margin-top: 60px;
+}
+.img-second-plant-iceream{
+  width: 100%;
+}
+
+/* third sectionn  */
+.third-section-aenean{
+  color: #a8a8a8;
+    font-size: 12px;
+
+}
+.third-section-para{
+  color: #a8a8a8;
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+.rounded-8section{
+  border-radius: 30px;
+  box-shadow: 10px 15px 15px black;
+}
+.ten-image{
+  height: 50px;
+}
+.ten-para{
+  color:  #6b6b6b;
+  font-size: 25px;
+}
+.main3{
+  height: 400px;
+  width: 100%;
+  color:  white;
+ 
+  
+  background-image: linear-gradient(45deg,#8198A4,#A4AFB6);
+}
+.btn1{
+  height: 50px;
+  width:200px;
+  background-color: #fc0a7e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.btn1:hover{
+  background-color: white;
+  color: #350e47; 
+  /* border: 2px solid #A81C9C; */
+}
+@media screen and (max-width: 986px){
+  .btn2{
+    margin-top: 15px;
+  }
+}
+
+.btn2{
+  height: 50px;
+  width: 180px;
+  margin-left: 5px;
+  background-color: none;
+  border: none;
+  border-radius: 5px;
+}
+.btn2:hover{
+  background-color:#A81C9C;
+  color: #350e47; 
+  /* border:2px solid  white; */
+}
+.elevn-btnnn{
+  margin-top: 150px;
+}
+input{
+  width: 250px;
+  height: 40px;
+  background-color: ghostwhite;
+  border: none;
+  border-radius: 5px;
+}
+.error-output{
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  top: 40px;
+  right: 180px;
+  background-color:navy;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.main4{
+  height: 100%;
+  width: 100%;
+  /* background-color: #1B1B1B; */
+  background-image: linear-gradient(145deg ,#09203F ,#94c1e4);
+}
+.footer-linkss{
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  font-family: cursive;
+}
+.footer-icons{
+  height: 30px;
+  margin-right: 10px;
+  padding: 1px;
+}
+.copyright{
+  height: 40px;
+  margin-top: 2px;
+  margin-left:10PX;
+  margin-right:10PX;
+}
+.footer-name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+
+}
+
+
